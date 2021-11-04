@@ -1,0 +1,1 @@
+This is the CLI to interact with the CP Baja 2020 DAQ. It can download and automatically convert files to CSV, as well as convert bins to CSV.
