@@ -1,0 +1,22 @@
+{
+  "name": "daqmanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@types/serialport": "^8.0.2",
+    "commander": "^8.3.0",
+    "daq-parse-lib": "file:../../Documents/GitHub/daq-parse-lib",
+    "papaparse": "^5.3.1",
+    "serialport": "^9.2.4"
+  },
+  "bin": {
+    "daq": "./index.js"
+  }
+}

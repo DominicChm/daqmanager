@@ -1,0 +1,28 @@
+{
+  "modules": [
+    {
+      "type": "brakePressure",
+      "name": "brakePressure",
+      "front_min_v": 0.268887572,
+      "rear_min_v": 0.271678383,
+      "front_psi_per_v": 412.5,
+      "rear_psi_per_v": 412.5,
+      "id": 4
+    },
+    {
+      "type": "marker",
+      "name": "marker",
+      "id": 3
+    },
+    {
+      "type": "mpu6050",
+      "name": "accel",
+      "id": 6
+    },
+    {
+      "type": "time",
+      "name": "time",
+      "id": 1
+    }
+  ]
+}
