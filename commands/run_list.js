@@ -1,6 +1,4 @@
-import SerialPort from "serialport"
-import {promisify} from "util";
-import {openTeensyPort} from "./portutil.js";
+import {openTeensyPort} from "../portutil.js";
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
